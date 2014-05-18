@@ -53,3 +53,7 @@ gorilla:
 dolphin:
   pkg.installed:
     - name: dolphin
+
+vlc:
+  pkg.installed:
+    - name: vlc
