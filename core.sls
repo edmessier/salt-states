@@ -49,3 +49,7 @@ chrome_ppa:
 gorilla:
   pkg.installed:
     - name: password-gorilla
+
+dolphin:
+  pkg.installed:
+    - name: dolphin
