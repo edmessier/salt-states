@@ -18,3 +18,17 @@ Clone states into `/srv/salt`.
 Run `highstate`.
 
     sudo salt-call --local state.highstate
+
+Updating
+--------
+
+To run new states against a box that is already installed.
+
+Update local git repo:
+
+    cd /srv/salt
+    sudo git pull
+    
+Run highstate:
+
+    sudo salt-call --local state.highstate
